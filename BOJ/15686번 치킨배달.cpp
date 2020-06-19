@@ -57,7 +57,7 @@ void DFS(int L,int s)
 
 int main()
 {
-freopen("input.txt", "rt", stdin);
+//freopen("input.txt", "rt", stdin);
 int i,j,a;
 
 scanf("%d %d",&n,&m);
