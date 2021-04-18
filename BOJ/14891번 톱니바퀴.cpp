@@ -76,7 +76,7 @@ for(i=1; i<=k; i++)
 	}
 	for(j=1; j<=4; j++)
 	{
-		if(check[j]==1)  //시계방향 일경우    
+		if(check[j]==1)     
 		{
 			tmp=array[j][8];
 			
