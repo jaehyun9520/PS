@@ -6,6 +6,8 @@
 #include<cmath>
 using namespace std;
 
+
+
 int main()
 {
 //freopen("input.txt", "rt", stdin);
@@ -23,6 +25,8 @@ for(i=1; i<=n; i++)
 	cin>>val;
 	array.push_back(val);
 }
+sort(array.begin(),array.end());
+
 
 s=0; e=n-1;
 
@@ -34,7 +38,7 @@ while(s!=e)
 		ans=abs(array[s]+array[e]);
 		
 		
-		if(abs(ans1)==abs(ans2)) 
+		if(abs(ans1)==abs(ans2))  
 	    {
 	    	break; 
 		}
@@ -50,6 +54,8 @@ while(s!=e)
 	{
 		e--;
 	}
+	
+
 	
 }
 
