@@ -24,7 +24,7 @@ vector <int > list;
 		 	sum+=list[i];
 		 }
 		 
-		 if(sum>m) //예산초과 
+		 if(sum>m)    
 		 {
 		 	return sum;
 		 }
